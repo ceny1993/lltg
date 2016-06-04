@@ -1,1 +1,3 @@
 # lltg
+
+just for GRADUATION

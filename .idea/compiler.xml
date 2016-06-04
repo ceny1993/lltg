@@ -19,4 +19,7 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="GreclipseSettings">
+    <option name="greclipsePath" value="$USER_HOME$/Downloads/groovy-eclipse-batch-2.4.3-01.jar" />
+  </component>
 </project>

@@ -6,12 +6,12 @@ import grails.converters.JSON
  * Created by ceny on 2016/6/4.
  */
 class SalesController {
-    def getCompanyList(){
+    def getCompany(){
         def ans = [123:"Agongsi",456:"Bgongsi"]
         render ans as JSON
     }
 
-    def getProvinceList(){
+    def getProvince(){
         def ans = [provinceList:["湖北","广西","浙江"]]
         render ans as JSON
     }
