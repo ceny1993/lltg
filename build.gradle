@@ -61,6 +61,11 @@ dependencies {
     testCompile "org.grails.plugins:geb"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    compile "mysql:mysql-connector-java:5.1.38"
+    compile "org.jsoup:jsoup:1.8.3"
+    compile "com.hankcs:hanlp:portable-1.2.9"
+    compile "nz.ac.waikato.cms.weka:weka-stable:3.8.0"
 }
 
 task wrapper(type: Wrapper) {
