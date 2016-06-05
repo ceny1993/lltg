@@ -23,6 +23,7 @@ class UrlMappings {
         "/news"(controller:"news",action:"getNews",method:"GET")
         "/news/keywords"(controller:"news",action:"getNewsKeywords",method:"GET")
         "/news/category"(controller:"news",action:"getNewsCategory",method:"GET")
+        "/news/abstract"(controller:"news",action:"createAbstract",method:"POST")
 
         "/data/import/futures/$id"(controller:"data",action:"importFutures",method:"POST")
         "/data/import/sales/$id"(controller:"data",action:"importSales",method:"POST")

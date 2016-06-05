@@ -1,11 +1,12 @@
 package app
 
 import grails.converters.JSON
-
 /**
  * Created by ceny on 2016/6/4.
  */
 class NewsController {
+
+    def newsService
 
     def getNewsKeywords(){
         def ans = ["abc":90,"haha":65,"备胎":77]
@@ -23,5 +24,10 @@ class NewsController {
         render ans as JSON
     }
 
+
+    def createAbstract(){
+        newsService.createAbstarct(12827)
+        render "10 done"
+    }
 
 }
