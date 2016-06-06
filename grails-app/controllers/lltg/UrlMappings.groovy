@@ -25,6 +25,8 @@ class UrlMappings {
         "/news/category"(controller:"news",action:"getNewsCategory",method:"GET")
         "/news/abstract"(controller:"news",action:"createAbstract",method:"POST")
 
+        "/word/sim"(controller:"word",action:"similar",method:"GET")
+
         "/data/import/futures/$id"(controller:"data",action:"importFutures",method:"POST")
         "/data/import/sales/$id"(controller:"data",action:"importSales",method:"POST")
         "/data/import/sales"(controller:"data",action:"importSalesOne",method:"POST")

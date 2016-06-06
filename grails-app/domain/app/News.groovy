@@ -16,7 +16,7 @@ class News {
     Double scoreCategory
     String keyWords
 
-    static constraint = {
+    static constraints = {
         newsContent (size:0..1024*1024*1024)
         autoAbstract (size:0..1024*1024*1024)
         vector (size:0..1024*1024*1024)

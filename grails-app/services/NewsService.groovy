@@ -6,7 +6,7 @@ import com.hankcs.hanlp.HanLP
  */
 class NewsService {
 
-    def createAbstarct(int id){
+    def createAbstarct(){
         def news = News.findAll(){ autoAbstract == "" }
         println news.size()
         int k=0
